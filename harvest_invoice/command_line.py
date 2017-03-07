@@ -1,7 +1,15 @@
 # -*- coding: utf-8 -*-
 
-import harvest_invoice
+import click
+
+from harvest_invoice.invoice import generate
 
 
-def main():
-    print(harvest_invoice.run())
+@click.command()
+@click.option("--template", help="Template file to be used to generate the invoice.")
+def main(template: str):
+    generate()
+
+
+if __name__ == "__main__":
+    main()

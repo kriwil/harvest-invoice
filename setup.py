@@ -13,7 +13,7 @@ setup(name='harvest-invoice',
       classifiers=[
           'Development Status :: 3 - Alpha',
           'License :: OSI Approved :: Apache 2 License',
-          'Programming Language :: Python :: 2.7',
+          'Programming Language :: Python :: 3.6',
           'Topic :: Text Processing :: Linguistic',
       ],
       keywords='harvest invoice',
@@ -23,6 +23,7 @@ setup(name='harvest-invoice',
       license='Apache 2',
       packages=['harvest_invoice'],
       install_requires=[
+          'click>=6,<7',
           'requests>=2,<3',
       ],
       entry_points={
