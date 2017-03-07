@@ -12,7 +12,7 @@ setup(name='harvest-invoice',
       long_description=readme(),
       classifiers=[
           'Development Status :: 3 - Alpha',
-          'License :: OSI Approved :: Apache 2 License',
+          'License :: OSI Approved :: Apache Software License',
           'Programming Language :: Python :: 3.6',
           'Topic :: Text Processing :: Linguistic',
       ],
