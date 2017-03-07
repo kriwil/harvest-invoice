@@ -1,7 +1,5 @@
 harvest-invoice
 ---------------
 
-To use::
-
-    harvest_invoice
+Generate your harvest invoice from command line interface.
 
